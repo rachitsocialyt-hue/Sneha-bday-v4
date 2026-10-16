@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="theme-color" content="#03030b"><meta name="description" content="A little universe made for Sneha — from Rachit.">
+<title>NETFLIX • SNEHA ORIGINAL — A RACHIT ORIGINAL · 17.10</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&family=Playfair+Display:ital,wght@0,600;1,600;1,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="stars" aria-hidden="true"></div><div class="nebula n1"></div><div class="nebula n2"></div><div class="grain"></div>
+<header class="topbar"><div class="brand"><b>NETFLIX</b> <span>×</span> <i>RACHIT ORIGINAL</i></div><div class="scene-count"><span id="sceneNo">01</span> / 07</div><button id="musicBtn" class="icon-btn" aria-label="Play music">♫</button></header>
+<main id="universe">
+<section class="scene hero active" data-scene="01">
+ <div class="orbit orbit-a"></div><div class="orbit orbit-b"></div><div class="planet"><div class="planet-glow"></div><span>20</span></div>
+ <div class="hero-copy"><p class="kicker">A RACHIT ORIGINAL · 17 OCTOBER · 2026</p><h1>SNEHA<br><em>IS THE UNIVERSE</em></h1><p class="sub"><strong>20 YEARS.</strong> COUNTLESS MOMENTS. ONE SPECIAL STORY.</p><button class="enter" data-next="1">ENTER THE UNIVERSE <span>↗</span></button></div>
+ <div class="scrollhint">SCROLL TO TRAVEL <span>↓</span></div>
+</section>
+<section class="scene" data-scene="02">
+ <div class="scene-inner split"><div class="scene-text"><p class="kicker">CHAPTER 01 · HER</p><h2>One girl.<br><em>Countless little details.</em></h2><p>Some people don't need a spotlight to stand out. They just do. This is a small collection of the moments that make Sneha, Sneha.</p><div class="stat"><b>20</b><span>years of being<br>her own universe</span></div></div><div class="photo-orbit"><div class="photo p1"><img src="assets/images/sneha-1.webp"></div><div class="photo p2"><img src="assets/images/sneha-2.webp"></div><div class="photo p3"><img src="assets/images/sneha-3.webp"></div><div class="photo p4"><img src="assets/images/sneha-4.webp"></div></div></div>
+</section>
+<section class="scene" data-scene="03">
+ <div class="scene-inner cinema"><p class="kicker">CHAPTER 02 · A MOMENT IN MOTION</p><h2>Press play.<br><em>Let the moment breathe.</em></h2><div class="video-shell"><div class="scan"></div><video id="memoryVideo" controls playsinline preload="metadata" poster="assets/images/sneha-video-poster.jpg"><source src="assets/video/sneha-video.webm" type="video/webm"><source src="assets/video/sneha-video.mp4" type="video/mp4"></video><div class="film-label">SNEHA / 17·10 / TAKE 01</div></div><p class="micro">Original aspect ratio preserved · no crop · no forced cover.</p></div>
+</section>
+<section class="scene" data-scene="04">
+ <div class="scene-inner special"><p class="kicker">CHAPTER 03 · WHY YOU</p><h2>Things that make<br><em>you special.</em></h2><div class="constellation"><button class="star-card" data-msg="That smile that somehow changes the whole mood.">01 <b>THE SMILE</b></button><button class="star-card" data-msg="The little caring things you do without making a big deal of them.">02 <b>THE CARE</b></button><button class="star-card" data-msg="Your cute, slightly crazy energy. Keep that forever.">03 <b>THE CHAOS</b></button><button class="star-card" data-msg="Because the simplest answer is still the best one: you're you.">04 <b>JUST YOU</b></button></div><p id="starMessage" class="star-message">Tap a star.</p></div>
+</section>
+<section class="scene" data-scene="05">
+ <div class="scene-inner birthday"><div class="ring"></div><p class="kicker">CHAPTER 04 · THE BIG NUMBER</p><div class="twenty">20</div><h2>TWENTY.</h2><p>Not just another number.<br>A whole new orbit starts here.</p><div class="confetti" id="confetti"></div></div>
+</section>
+<section class="scene" data-scene="06">
+ <div class="scene-inner letter"><p class="kicker">CHAPTER 05 · FROM RACHIT</p><div class="letter-card"><div class="letter-top">FOR SNEHA · 17 OCTOBER</div><h2>Happy Birthday, Sneha. 🫶</h2><p>yrr honestly idk kaha se start kru 😭 but aaj tera birthday h toh kuch toh likhna bnta h...</p><p>I genuinely hope ki tu hamesha khush rhe, haste rhe and jo bhi tu chahti h life mein vo tujhe mile.</p><p>and haan... we've had our moments — good ones, complicated ones — but jo memories hain na, they're genuinely special to me.</p><p>Some people, no matter what happens, will always have a special place somewhere. ❤️</p><p>bas aaj ke din itna hi bolunga — keep smiling, keep being the same crazy/beautiful Sneha 😭🫶</p><p>I hope this new year of your life brings you happiness, peace, success and obviously... bohot saari parties 😂</p><p class="signature">— Rachit ❤️</p></div><strong class="credit">Big thanks to Akshita for providing all of your photos ❤️</strong></div>
+</section>
+<section class="scene final" data-scene="07">
+ <div class="final-stars"></div><div class="scene-inner final-inner"><p class="kicker">FINAL TRANSMISSION · FROM RACHIT</p><div class="final-heart">♡</div><h2>Sneha, you will always be<br><em>my so special one.</em> ❤️🫶</h2><p class="final-message">& I know we're not together now.. but I really tried my best to make u feel I'm there with you that's why I made a small website for you❤️</p><div class="final-line"></div><h1>Happiest Birthday,<br><em>Sneha</em> ❤️</h1><p class="yours">Yours Rachit 🫶</p><button id="replay" class="enter">REPLAY THE UNIVERSE ↻</button></div></section>
+</main>
+<nav class="dots" aria-label="Scenes"><button class="dot active" data-go="0"></button><button class="dot" data-go="1"></button><button class="dot" data-go="2"></button><button class="dot" data-go="3"></button><button class="dot" data-go="4"></button><button class="dot" data-go="5"></button><button class="dot" data-go="6"></button></nav>
+<audio id="bgm" loop preload="auto"><source src="assets/audio/birthday-piano.mp3" type="audio/mpeg"></audio>
+<script src="js/app.js"></script>
+</body></html>
